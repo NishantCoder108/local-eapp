@@ -1,0 +1,26 @@
+.navbar{
+    display: flex;
+    /* border: 2px solid red; */
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(148, 148, 230);
+}
+
+.navbar >div{
+    display: flex;
+    align-items: center;
+   
+    flex: .28;
+    gap: 6.9px;
+    justify-content: space-around;
+}
+.navbar button{
+    outline: none;
+    border: 0px;
+}
+.navbar >div> button:hover{
+    background-color: blue;
+    color: white;
+    outline: none;
+    border: 0px;
+}
